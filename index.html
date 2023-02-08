@@ -37,7 +37,7 @@
         <section class="section-hero">
             <div class="hero-bcg">
                 <h1 class="hero-name">Effective Solutions for Your Business</h1>
-                <button class="btn-order" type="button">Order Service</button>
+                <button class="btn-order " data-modal-open type="button">Order Service</button>
             </div>
         </section>
         <!-- Advanteges -->
@@ -136,7 +136,7 @@
                                     </li>
                                 </ul>
                        </div>
-                        </a>
+                        
                     </li>
                     <li class="list-style">
                         <img class="cards-image" src="./images/teamphoto/tomford.jpg" alt="Photo of the frontend manager" width="264" height="260">
@@ -176,7 +176,7 @@
                                 </ul>
                             </div>
                        
-                        </a>
+                        
                     </li>
                     <li class="list-style">
                         <img class="cards-image" src="./images/teamphoto/camilagarcia.jpg" alt="Photo of the marketinf manager" width="264" height="260">
@@ -193,7 +193,7 @@
                                     </li>
                                     <li class="team-link">
                                         <a class="icon-link" href aria-label="Twitter" rel="noopener noreferer">
-                                            <svg  width="16" height="16">
+                                            <svg width="16" height="16">
                                               <use href="./images/icomoon/sprite.svg#icon-twitter"></use>
                                             </svg>
                                         </a>
@@ -207,7 +207,7 @@
                                     </li>
                                     <li class="team-link">
                                         <a class="icon-link" href aria-label="LinkedIn" rel="noopener noreferer">
-                                            <svg  width="16" height="16">
+                                            <svg width="16" height="16">
                                               <use href="./images/icomoon/sprite.svg#icon-linkedin"></use>
                                             </svg>
                                         </a>
@@ -215,7 +215,7 @@
                                 </ul>
                             </div>
                        
-                        </a>
+                        
                     </li>
                     <li class="list-style">
                         <img class="cards-image" src="./images/teamphoto/danielwilson.jpg" alt="Photo of the UI designer" width="264" height="260">
@@ -255,7 +255,7 @@
                                 </ul>
                             </div>
                 
-                        </a>
+                        
                     </li>
                 </ul>
             </div>
@@ -312,28 +312,28 @@
             <ul class="footer-network">
                 <li class="footer-link">
                     <a class="footer-icon" href aria-label="Instagram" rel="noopenere noreferer">
-                        <svg  width="24" height="24">
+                        <svg width="24" height="24">
                           <use href="./images/icomoon/sprite.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="footer-link">
                     <a class="footer-icon" href aria-label="Twitter" rel="noopenere noreferer">
-                        <svg  width="24" height="24">
+                        <svg width="24" height="24">
                           <use href="./images/icomoon/sprite.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="footer-link">
                     <a class="footer-icon" href aria-label="Facebook" rel="noopenere noreferer">
-                        <svg  width="12" height="24">
+                        <svg width="12" height="24">
                           <use href="./images/icomoon/sprite.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="footer-link">
                     <a class="footer-icon" href aria-label="LinkedIn" rel="noopenere noreferer">
-                        <svg  width="24" height="24">
+                        <svg width="24" height="24">
                           <use href="./images/icomoon/sprite.svg#icon-linkedin"></use>
                         </svg>
                     </a>
@@ -342,5 +342,17 @@
         </div>
         </div>
     </footer>
+<!-- Modal window -->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="btn-modal" data-modal-close type="button">
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icomoon/sprite.svg#icon-close"></use>
+        </svg>
+    </button>
+    </div>
+</div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
